@@ -1,0 +1,14 @@
+def primenums():
+    print()
+    nums = int(input("Enter your number:"))
+    for i in range(2,nums):
+       if nums%i==0:
+          print("non of prime")
+          break
+    else:
+       print("prime number")
+    loop = 1
+    while loop<=5:
+         print(primenums())
+
+primenums()
